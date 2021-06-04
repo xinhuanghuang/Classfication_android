@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/animals_image"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:src="@drawable/dog_1"
+        android:layout_alignParentTop="true">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/animals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/animals_image"
+        android:text="动物">
+
+    </Button>
+
+    <ImageView
+        android:id="@+id/zhiwu_image"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:src="@drawable/flower"
+        android:layout_below="@id/animals">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/zhiwu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zhiwu_image"
+        android:text="植物">
+
+    </Button>
+
+    <ImageView
+        android:id="@+id/tool_image"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:src="@drawable/tool"
+        android:layout_below="@id/zhiwu">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tool_image"
+        android:text="工具">
+
+    </Button>
+
+</RelativeLayout>
